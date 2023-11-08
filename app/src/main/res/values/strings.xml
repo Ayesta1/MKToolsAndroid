@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">M13V0</string>
+    <string name="about_us">Nuestra aplicación será una herramienta de utilidades sobre el videojuego Mario Kart 8
+       Deluxe para Switch. La apariencia e interfaces de esta será similar a la del videojuego base, pero adaptado a
+       las herramientas en cuestión. Varias texturas, botones y tipografías de letras serán extraídos del propio juego,
+       con tal de poder referenciar correctamente a lo explicado y por un mayor entendimiento y concordancia.
+</string>
+    <string name="contact_us">Si tienes algún problema con nuestra aplicación puede contactar con nuestro equipo de
+       soporte a este correo ( soporte.mktools@proyecto.com ) o puede contactar con los desarrolladores directamente a
+       nuestros correos personales
+</string>
+
+</resources>
