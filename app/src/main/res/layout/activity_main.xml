@@ -8,21 +8,28 @@
 
     <Button
         android:id="@+id/combinationButton"
-        android:layout_width="217dp"
-        android:layout_height="58dp"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
         android:layout_marginTop="60dp"
+        android:backgroundTint="@color/button"
         android:text="Combinaciones"
+        android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/combinationIV"
         app:layout_constraintHorizontal_bias="0.515"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/picesButton"
-        android:layout_width="217dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/button"
+        android:clipToOutline="false"
         android:text="Piezas"
+        android:textSize="18sp"
+
         app:layout_constraintEnd_toStartOf="@+id/picesIV"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,22 +37,26 @@
 
     <Button
         android:id="@+id/aboutUsButton"
-        android:layout_width="217dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/button"
+        android:onClick="openAboutUs"
         android:text="About Us"
+        android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/aboutUsIV"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/itemsButton"
-        android:onClick="openAboutUs"/>
+        app:layout_constraintTop_toBottomOf="@+id/itemsButton" />
 
     <Button
         android:id="@+id/itemsButton"
-        android:layout_width="217dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/button"
         android:text="Items"
+        android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/itemsIV"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,40 +64,40 @@
 
     <ImageView
         android:id="@+id/combinationIV"
-        android:layout_width="94dp"
-        android:layout_height="85dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="36dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/btn_star" />
 
     <ImageView
         android:id="@+id/picesIV"
-        android:layout_width="94dp"
-        android:layout_height="85dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="36dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/combinationIV"
         app:srcCompat="@android:drawable/btn_star" />
 
     <ImageView
         android:id="@+id/aboutUsIV"
-        android:layout_width="94dp"
-        android:layout_height="85dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="36dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/itemsIV"
         app:srcCompat="@android:drawable/btn_star" />
 
     <ImageView
         android:id="@+id/itemsIV"
-        android:layout_width="94dp"
-        android:layout_height="85dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="36dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/picesIV"
         app:srcCompat="@android:drawable/btn_star" />
